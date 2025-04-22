@@ -1,15 +1,10 @@
-#!/bin/sh
+#!/bin/bash
 
-echo  "Digite um numero: "
-read a
-echo "Digite outro numero:"
-read b
+echo "Digite um número:"
+read num
 
-
-a=7
-b=3
-if [ $a -gt $b ]; then
-	echo "$a maior que $b"
-else 
-	echo "$a e menor ou igual a $b"
-fié
+if [ $num -gt 10 ]; then
+    echo "O número é maior que 10."
+else
+    echo "O número é menor ou igual a 10."
+fi

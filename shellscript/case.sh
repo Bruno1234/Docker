@@ -1,17 +1,19 @@
-#!/bin/sh
+#!/bin/bash
 
-echo "Escolha uma opcao (opcao 1, opcao 2 e opcao 3)
-read opcao
-case $opcao in
-	opcao)
-		echo "Voce escolheu opcao 1"
-	::
-	opcao)
-		echo "Voce escolheu opcao 2"
-	;;
-	opcao)
-		echo "Voce escolheu opcao 3"
-	::
-	*) 
-		echo "opcao desconhecida"
+echo "Escolha uma cor (vermelho, azul ou verde):"
+read cor
+
+case $cor in
+    vermelho)
+        echo "Você escolheu vermelho!"
+        ;;
+    azul)
+        echo "Você escolheu azul!"
+        ;;
+    verde)
+        echo "Você escolheu verde!"
+        ;;
+    *)
+        echo "Cor desconhecida!"
+        ;;
 esac

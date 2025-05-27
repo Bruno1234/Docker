@@ -5,4 +5,3 @@ soma() {
 	echo "Resultado: $resultado"
 }
 soma 100 233 
-

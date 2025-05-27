@@ -2,8 +2,7 @@
 
 Dia=$(date +%F)
 
-for Arquivo in `ls *.png`Â
+for Arquivo in `ls *.png`ï¿½
 do
 	mv $Arquivo ${Dia}-${Arquivo}
 done
-

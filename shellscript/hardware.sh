@@ -44,4 +44,3 @@ case $opcao in
 	echo "0- Sair do menu"
 	;;
 esac
-

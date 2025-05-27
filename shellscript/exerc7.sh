@@ -1,17 +1,1 @@
-#!/bin/bash
-
-Arquivo=$@
-
-for Arquivo in $Arquivo
-do
-   if [ -f "$Arquivo" ]
-   then
-     echo "$Arquivo e um arquivo comum"
-   elif [ -d "$Arquivo" ]
-   then
-     echo "$Arquivo e um diretorio"
-   else
-     echo "$Arquivo e alguma outra coisa"
-   fi
-   ls -l $Arquivo
-done
+#!/bin/bashArquivo=$@for Arquivo in $Arquivodo   if [ -f "$Arquivo" ]   then     echo "$Arquivo e um arquivo comum"   elif [ -d "$Arquivo" ]   then     echo "$Arquivo e um diretorio"   else     echo "$Arquivo e alguma outra coisa"   fi   ls -l $Arquivodone

@@ -43,4 +43,3 @@ case $opcion in
         ;;
   esac
 done
-

@@ -1,4 +1,3 @@
-
 #!/bin/sh
 
 CAMINHO="/Docker/shelscript/exerc1.sh"

@@ -1,17 +1,1 @@
-#!/bin/bash
-
-if [ $# -eq 0 ]; then
-    echo "Por favor, forneça um diretorio como argumento."
-    exit 1
-fi
-
-DIRETORIO="$1"
-
-if [ ! -d "$DIRETORIO" ]; then
-    echo "O argumento $DIRETORIO nao diretorio!"
-    exit 1
-fi
-
-QUANTIDADE=$(find "$DIRETORIO" -maxdepth 1 -type f | wc -l)
-
-echo "O $DIRETORIO tem $QUANTIDADE arquivos."
+#!/bin/bashif [ $# -eq 0 ]; then    echo "Por favor, forneça um diretorio como argumento."    exit 1fiDIRETORIO="$1"if [ ! -d "$DIRETORIO" ]; then    echo "O argumento $DIRETORIO nao diretorio!"    exit 1fiQUANTIDADE=$(find "$DIRETORIO" -maxdepth 1 -type f | wc -l)echo "O $DIRETORIO tem $QUANTIDADE arquivos."

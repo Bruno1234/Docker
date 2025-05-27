@@ -2,3 +2,4 @@
 
 HOST=`hostname`
 echo "Esse esta rodando: $HOST"
+
